@@ -201,7 +201,7 @@ Esta é a 10ª semana da turma online: Todas em Tech on23 - Front-end, nesta aul
   1. [Dog API](https://dog.ceo/dog-api/)
   2. [ViaCEP API](https://viacep.com.br/)
   3. [ReqRes API](https://reqres.in/)
-  4. [Studios Ghibli API](https://ghibliapi.herokuapp.com/)
+  4. [Studios Ghibli API](https://ghibliapi.vercel.app)
   5. [Poke API](https://pokeapi.co/)
  
  <br>
