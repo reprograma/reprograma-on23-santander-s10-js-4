@@ -1,0 +1,41 @@
+/*Projetinho 📓  
+
+## 1. Desafio Ghibli
+
+    - Utilize o `fetch()` para realizar uma requisição ao endpoint 
+    https://ghibliapi.herokuapp.com/films da [Studios Ghibli API](https://ghibliapi.herokuapp.com/) 
+    e popule a página que também será criada por vocês (HTML e CSS)
+     com os dados do json que é a lista com todos os filmes da Ghibli (22);*/
+
+    
+      
+      body {
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+        background-color: #4af092; /* https://flatuicolors.com/palette/de */
+        background-size: cover;
+      }
+      
+      #demo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 100vh;
+      }
+      
+      .films {
+        background-color: #e4e13640;
+        backdrop-filter: blur(10px);
+        width: 15vw;
+        min-height: 60vh;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 2rem;
+        box-shadow: 2px 4px 10px #57657470;
+      }
