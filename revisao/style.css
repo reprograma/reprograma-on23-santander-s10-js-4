@@ -23,15 +23,15 @@ body {
   gap: 20px;
 }
 
-.card {
+.Card {
   display: flex;
   flex-direction: column;
-  width: 180px;
-  height: 400px;
+  width: 2px;
+  height: 5px;
 }
 
-.card img {
-  width: 100%;
+.cards img {
+  width: 400%;
   align-self: center;
   box-shadow: 1px 1px 10px #7f8fa6;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .type::before {
-  content: '✡️';  
+  content: '';  
   font-style: normal;
   margin-right: 2px;
 }
