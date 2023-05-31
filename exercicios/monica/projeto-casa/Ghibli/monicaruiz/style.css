@@ -1,0 +1,21 @@
+
+body{
+  background-color: beige;
+}
+
+  .films{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aquamarine;
+    gap: 20px;
+    size: 20px;
+    color: black;
+    
+  }
+  
+ .title{
+  font-size: 2rem;
+  color: blue
+ }
