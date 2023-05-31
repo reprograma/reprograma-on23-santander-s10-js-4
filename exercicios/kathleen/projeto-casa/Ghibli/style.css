@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comic Neue', cursive;
+  text-align: center;
+  background-color: #F5DBA7;
+  justify-content: center;
+
+}
+
+
+header {
+  padding: 32px;
+  border-bottom: 1px solid #fff
+}
+
+
+
+.page-title {
+  background-color: #F5D;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container-film:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+
+
+.container-dados {
+max-width: 500px;
+background-color: #fff;
+padding: 10px;
+margin: 100px;
+display: inline-table;
+
+
+}
+
+
+.container-film{
+ max-width: 300px;
+  padding: 10px;
+  border: 2px solid red;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.container-film img{
+  width: 100%;
+}
+
+.container-film span{
+  width: 30vw;
+  margin: 2vh;
+}
