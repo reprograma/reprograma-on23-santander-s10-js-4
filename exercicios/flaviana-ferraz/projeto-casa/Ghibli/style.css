@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body {
+    max-width: 100%;
+    background-color:  #2d3436; /*https://flatuicolors.com/palette/de*/
+    margin: 40px;
+    align-items: center;
+  }
+
+  .cabeçalho{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15%;
+    max-width: 100%;
+  }
+
+  .movie{
+    width: 20%;
+    height: 25%;
+    margin: 3rem;
+  }
+
+  h1{
+    font-family: 'Kanit', sans-serif;;
+    font-size: 6rem;
+    font-weight: bold;
+    color: grey;
+    margin: 3rem;
+  }
+  
+  #demo {
+    display: inline-block;
+    max-width: 100%;
+    align-items:baseline;
+    margin-top: 50px;
+  }
+  
+  .title {
+    margin: 2rem 0 1rem 0;
+    font-size: 2.5rem;
+    color: plum;
+    text-align: center;
+  }
+  
+  .description{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 600;
+    align-self: flex-start;
+    text-align: justify;
+  }
+
+  .director, .producer, .year{
+    font-size: 1.5rem;
+    color: plum;
+    font-weight: 600;
+    align-self: flex-start;
+    text-align: justify;
+  }
+
+  .film_banner{
+    width:100%;
+    height:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .film {
+    display: inline-block;
+    justify-content:baseline;
+    align-items:baseline;
+    max-width: 20%;
+    min-height: 100vh;
+    margin:20px;
+    padding: 15px;
+    min-height: 100vh;
+    box-shadow: 2px 4px 10px #b2bec3
+  }
+
+  @media(max-width: 910px){
+    .film{
+      max-width: 40%;
+    }
+  }
+
+  @media(max-width:900px){
+    h1{
+      font-size: 4rem;
+    }
+  }
+
+  @media(max-width: 550px){
+    .film{
+      max-width: 80%;
+    }
+  }
+
+  @media(max-width:476px){
+    .cabeçalho{
+      display: flex;
+    }
+
+    .movie{
+      margin: 1px;
+    }
+
+    h1{
+      font-size: 2rem;
+      margin: 1px;
+    }
+  }
+
+
+  
