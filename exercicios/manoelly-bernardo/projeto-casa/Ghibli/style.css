@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #109CEB;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+#container-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-film {
+  background-color: antiquewhite;
+  margin: 2% 1% 1% 1%;
+  padding: 2%;
+  width: 20rem;
+  height: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card-film img {
+  width: 100%;
+  height: 60%;
+}
+
+.card-film p {
+  padding: 5%;
+  font-size: 0.8em;
+  text-align: justify;
+}
