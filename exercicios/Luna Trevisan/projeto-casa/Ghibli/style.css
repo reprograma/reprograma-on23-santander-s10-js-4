@@ -1,0 +1,78 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 7, 8);
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #C1F5CD, #F5E3A9, #909EF5, #F59DA5), url('../Ghibli/patas.png');
+    background-blend-mode: multiply;
+    background-size: contain;
+    
+}
+
+#demo {
+    display: grid;
+    grid-template-columns: repeat(4, 22fr);
+    gap: 50px;
+    padding: 5%;
+    
+}
+
+.card {
+    background-color: #f1f1f140;
+    backdrop-filter: blur(10px);
+    width: 18vw;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2rem;
+    box-shadow: 2px 4px 10px #57657470;
+    overflow: hidden;
+    height: 50vw;
+
+}
+
+.card img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.title {
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    padding-right: 5px;
+    text-align: justify;
+    
+}
+
+.date, .director {
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(9, 8, 9);
+    font-size: 3rem;
+    left: 50%;
+    padding: 30px;
+    position: absolute;
+    top: -40px;
+    transform: translateX(-50%);
+    font-family: 'Handlee', cursive;
+}
