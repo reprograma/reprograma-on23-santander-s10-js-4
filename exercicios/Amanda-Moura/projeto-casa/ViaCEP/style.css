@@ -1,0 +1,43 @@
+#demo{
+    display: flex;
+    justify-content: center;
+
+}
+.card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .rua,
+  .bairro,
+  .complemento {
+    margin: 5px 0;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #cepInput {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
