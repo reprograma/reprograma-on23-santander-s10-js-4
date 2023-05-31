@@ -1,0 +1,59 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 213, 178)
+}
+
+.container h1{
+    margin: 1rem 0;
+    text-align: center; 
+    color: rgb(43, 255, 227);
+}
+#container__cards{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: auto;
+    gap: 1rem;
+}
+.card{
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.card__banner{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.card__banner img{
+   width: 100%;
+}
+.card__title{
+    margin-bottom: 1rem;
+}
+.card__title h2{
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+.card__stats{
+    margin-bottom: 1rem;
+}
+.card__stats ul{
+    list-style: none;
+    text-align: left;
+}
+.card__stats ul li{
+    padding-bottom: .15rem;
+}
+
+
+.card__description p{
+    text-align: justify;
+}
