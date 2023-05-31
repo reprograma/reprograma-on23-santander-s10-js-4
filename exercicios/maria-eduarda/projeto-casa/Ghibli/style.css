@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(191, 143, 236);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 95vh;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    align-items: center;
+    background-size: cover;
+  }
+
+#demo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 180px;
+}
+
+.films {
+    width: 100%;
+    align-self: center;
+    box-shadow: 1px 1px 10px #7f8fa6;
+    text-align: center;
+  }
+
+.description {
+    margin-top: 10px;
+  }
