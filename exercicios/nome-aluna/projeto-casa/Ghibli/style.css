@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #A785ED;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+input {
+    outline: 0;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    width: 400px;
+    height: 40px;
+    box-shadow: none;
+    border-color: blueviolet;
+    border-radius: 8px;
+}
+
+#container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-filmes {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 10px;
+}
+
+.imagensFilmes {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+
+}
+
+.cardsFilmes {
+    
+    background: rgba(192, 144, 221, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.titles{
+    font-size:larger;
+    text-align: center;
+}
+.contents,.text{
+    text-align: center;
+    font-size: small;
+}
