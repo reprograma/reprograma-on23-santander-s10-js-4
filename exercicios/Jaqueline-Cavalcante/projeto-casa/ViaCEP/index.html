@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ViaCEP API</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Consulta de CEP</h1>
+  <div class="cep-input">
+    <input type="text" id="cep-input" placeholder="Digite o CEP">
+    <button onclick="buscarCEP()">Buscar</button>
+  </div>
+  <div class="result" id="result">
+    <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+    <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+    <p><strong>Localidade:</strong> <span id="localidade"></span></p>
+    <p><strong>UF:</strong> <span id="uf"></span></p>
+  </div>
+</body>
+</html>
