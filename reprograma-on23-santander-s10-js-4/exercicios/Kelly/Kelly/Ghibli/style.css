@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #27374d;
+}
+
+#demo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  grid-gap: 1rem;
+  margin: 1rem;
+  background-color: #27374d;
+}
+
+.titlePrincipal {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.1rem;
+  color: #dde6ed;
+}
+
+.card {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #9db2bf;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+  margin: 1rem;
+}
+
+.image:hover {
+  scale: 1.1;
+}
+
+.title {
+  color: #27374d;
+}
+
+.subTitle {
+  color: #526d82;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: 500;
+}
+
+.paragraphDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer{
+  margin: 0 auto;
+  color: #9db2bf;
+}
+
+@media (max-width: 1120px) {
+  #demo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  #demo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
