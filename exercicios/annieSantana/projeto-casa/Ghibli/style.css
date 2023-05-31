@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "JetBrains Mono";
+    color: #353b48;
+  }
+  
+  body {
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;
+
+  }
+
+
+h2{
+    font-size: 20px;
+}
+
+  .card {
+  width: 300px;
+  margin: 1%;
+  
+  }
+  
+  .image {
+    width: 200px;
+    align-self: center;
+    box-shadow: 1px 1px 10px #2f5a97;
+  
+  }
+  
+  .title {
+color: rgb(17, 120, 111);
+margin-bottom: 5%;
+  }
+  
+
+  
+  
+  .description {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .director{
+    color: rgb(226, 43, 192);
+  }
+  
