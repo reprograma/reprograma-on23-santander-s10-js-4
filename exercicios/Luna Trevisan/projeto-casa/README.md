@@ -2,7 +2,7 @@
 
 ## 1. Desafio Ghibli
 
-- Utilize o `fetch()` para realizar uma requisição ao endpoint https://ghibliapi.vercel.app/films da [Studios Ghibli API](https://ghibliapi.vercel.app) e popule a página que também será criada por vocês (HTML e CSS) com os dados do json que é a lista com todos os filmes da Ghibli (22);
+- Utilize o `fetch()` para realizar uma requisição ao endpoint https://ghibliapi.herokuapp.com/films da [Studios Ghibli API](https://ghibliapi.herokuapp.com/) e popule a página que também será criada por vocês (HTML e CSS) com os dados do json que é a lista com todos os filmes da Ghibli (22);
 
 ## 2. Desafio ViaCEP
 
