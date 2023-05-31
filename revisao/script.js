@@ -27,6 +27,7 @@ async function getCards() {
 async function main() {
   const cards = await getCards()
   cards.map((card) => container.innerHTML += createCard(card))
+  
 }
 
 main()
