@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body {
+    max-width: 100%;
+    background-color:  #2d3436; /*https://flatuicolors.com/palette/de*/
+    margin: 40px;
+    align-items: center;
+  }
+
+  h1{
+    font-family: 'Kanit', sans-serif;;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
+    font-weight: bold;
+    color: grey;
+    margin-top: 7rem;
+    background-color: black;
+    padding: 7rem;
+    border-radius: 15%;
+  }
+  
+  #demo {
+    display: inline-block;
+    /* justify-content: baseline; */
+    max-width: 100%;
+    align-items:baseline;
+    margin-top: 50px;
+  }
+  
+  .title {
+    margin: 2rem 0 1rem 0;
+    font-size: 2.5rem;
+    color: plum;
+    text-align: center;
+  }
+  
+  .description{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 600;
+    align-self: flex-start;
+    text-align: justify;
+  }
+
+  .director, .producer, .year{
+    font-size: 1.5rem;
+    color: plum;
+    font-weight: 600;
+    align-self: flex-start;
+    text-align: justify;
+  }
+
+  img{
+    width: 200px;
+    height: 300px;
+    display: flex;
+  }
+
+  .film {
+    display: inline-block;
+    justify-content:center;
+    align-items:baseline;
+    max-width: 20%;
+    min-height: 100vh;
+    margin:20px;
+    padding: 15px;
+    min-height: 100vh;
+    box-shadow: 2px 4px 10px #b2bec3
+  }
+
+
+  
