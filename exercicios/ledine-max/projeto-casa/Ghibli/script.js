@@ -14,7 +14,7 @@ function createFilm(film) {
 }
 
 
-async function getFilms() {
+async function filmesGhibli() {
     try {
         const response = await fetch('https://ghibliapi.vercel.app/films')
         const json = await response.json()
@@ -26,7 +26,7 @@ async function getFilms() {
 }
 
 async function main() {
-    const films = await getFilms()
+    const films = await filmesGhibli()
     films.map((films) => conteudo.innerHTML += createFilm(films))
 }
 
