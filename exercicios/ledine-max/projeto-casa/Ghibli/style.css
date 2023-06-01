@@ -11,12 +11,16 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 74.375em;
+}
 
+p {
+    padding-right: 45px;
+    padding-left: 25px;
+    text-align: justify;
 }
 
 #studio_Ghibli {
     background-color: #DEECFF;
-    border: 100px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 0.353em;
     color: #665C84;
@@ -26,7 +30,7 @@ body {
     width: 43em;
 }
 
-.img_logo_studio{
+.img_logo_studio {
     width: 39em;
     padding-left: 1.563em;
 }
@@ -38,13 +42,6 @@ body {
     margin-top: 1.2em;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
-p {
-    padding-right: 45px;
-    padding-left: 25px;
-    text-align: justify;
-}
-
 
 .title {
     color: #8EA7E9;
