@@ -1,58 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cairo+Play:wght@700&family=Montserrat:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 15px;
     font-family: "JetBrains Mono";
     color: #353b48;
   }
+
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-family: 'Amatic SC', cursive;
+    left: 50%;
+    padding: 6rem;
+    position: absolute;
+    top: -40px;
+    transform: translateX(-50%);
+  }
   
   body {
-    margin-top: 100px;
+    margin-top: 10rem;
     height: auto;
     display: flex;
     justify-content: space-around;
-    margin-left: 20px;
     align-items: center;
-    background-size:auto;
+    background-image: url(./1198712-3840x2160-desktop-4k-studio-ghibli-wallpaper.jpg);
+    background-size: auto;
+    
     
   }
   
   #demo {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 150px;
+    ; */
+   
     
   }
   
   .card {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 400px;
+    width: 250px;
+    background-color: white;
+    background: -o-linear-gradient(1);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
 
   }
   
   .card img {
-    width: 100%;
+    width: 90%;
     align-self: center;
     box-shadow: 1px 1px 10px #7f8fa6;
   }
   
   .title {
     font-size: 2rem;
+    align-self: center;
+    text-align: center;
+    padding-top: 10px;
   }
   
   .director {
     align-self: flex-start;
-    font-style:inherit;
+    font-weight: bold;
     font-size: 1.2rem;
+    padding-top: 1rem;
   }
   
   
   .description {
     margin-top: 10px;
+    text-align:justify;
   }
   

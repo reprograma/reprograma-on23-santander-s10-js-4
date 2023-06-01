@@ -14,20 +14,27 @@ function createCard(film) {
     `
   } 
 
-async function getfilm(){
+async function getfilm(random){
     try { 
         const response = await fetch("https://ghibliapi.vercel.app/films")
         const films = await response.json()
-        return films
+        const oursfilms = films.slice(random, random +4)
+        return oursfilms
         
     } catch (erro) {
         console.error('capturei o erro'+ erro)
     }
 }
 async function main() {
-    const films = await getfilm()
+    const random = parseInt(Math.random()*20)
+    console.log(random)
+    const films = await getfilm(random)
     console.log(films)
     films.map((film) => container.innerHTML += createCard(film))
 }
 
 main()
+
+const superTitle = document.createElement('h1')
+superTitle.innerHTML = `Random Ghibli Film`
+document.body.appendChild(superTitle);
