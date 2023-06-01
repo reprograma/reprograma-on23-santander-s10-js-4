@@ -1,38 +1,60 @@
 * {
-    background-color: rgb(191, 143, 236);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+  /* background-color: rgb(191, 143, 236); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  
 }
 
 body {
-    height: 95vh;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 20px;
-    align-items: center;
-    background-size: cover;
-  }
+  padding: 10px;
+  /* background-image: url("patinhas.png"); */
+  background-image: linear-gradient(to bottom right, rgb(108, 2, 108), rgb(178, 2, 178), rgb(182, 31, 182), rgb(202, 60, 202), rgb(224, 129, 145), pink);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  left: 50%;
+  padding: 30px;
+  position: absolute;
+  top: -40px;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  box-shadow: 1px 1px 6px;
+}
 
 #demo {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25vh;
 }
 
-.image {
-    width: 180px;
-}
-
-.films {
+/* .films {
     width: 100%;
     align-self: center;
     box-shadow: 1px 1px 10px #7f8fa6;
     text-align: center;
-  }
+  } */
+
+.films {
+  display: block;
+  box-shadow: 1px 1px 10px #657284;
+  text-align: center;
+  padding: 10px;
+}
+
+.image {
+  width: 180px;
+}
+
+.title {
+  color: black;
+}
 
 .description {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
+}
