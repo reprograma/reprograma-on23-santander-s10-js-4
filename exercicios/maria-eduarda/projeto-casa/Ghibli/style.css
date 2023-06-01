@@ -1,5 +1,4 @@
 * {
-  /* background-color: rgb(191, 143, 236); */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +8,6 @@
 
 body {
   padding: 10px;
-  /* background-image: url("patinhas.png"); */
   background-image: linear-gradient(to bottom right, rgb(108, 2, 108), rgb(178, 2, 178), rgb(182, 31, 182), rgb(202, 60, 202), rgb(224, 129, 145), pink);
 }
 
@@ -32,13 +30,6 @@ h1 {
   flex-wrap: wrap;
   margin-top: 25vh;
 }
-
-/* .films {
-    width: 100%;
-    align-self: center;
-    box-shadow: 1px 1px 10px #7f8fa6;
-    text-align: center;
-  } */
 
 .films {
   display: block;
