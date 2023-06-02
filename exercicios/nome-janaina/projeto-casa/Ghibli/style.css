@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "JetBrains Mono";
+    color: #353b48;
+  }
+  
+  body {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  #demo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .film {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .image {
+    width: 100%;
+    align-self: center;
+    box-shadow: 1px 1px 10px #7f8fa6;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
