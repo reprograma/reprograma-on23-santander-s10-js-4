@@ -38,11 +38,14 @@ header {
 
 
 .container-dados {
-max-width: 500px;
 background-color: #fff;
-padding: 10px;
+padding: 50px;
 margin: 100px;
-display: inline-table;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 
 
 }
@@ -50,7 +53,7 @@ display: inline-table;
 
 .container-film{
  max-width: 300px;
-  padding: 10px;
+  padding: 40px;
   border: 2px solid red;
   margin: 5px;
   border-radius: 5px;
