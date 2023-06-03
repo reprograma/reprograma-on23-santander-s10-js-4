@@ -53,7 +53,6 @@ align-items: center;
 .image {
   width: 100%;
   row-gap: 5px;
-
   align-self: center;
   border-radius: 86px 86px 86px 86px;
   -moz-border-radius: 86px 86px 86px 86px;
