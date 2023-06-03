@@ -4,7 +4,7 @@
 
 # On23-TodasEmTech-Santander-JavaScriptIV
 
-Esta é a 10ª semana da turma online: Todas em Tech on23 - Front-end, nesta aula do dia 27/10/2022 teremos os seguintes conteúdos:
+Esta é a 10ª semana da turma online: Todas em Tech on23 - Front-end, nesta aula do dia 2705/2023 teremos os seguintes conteúdos:
 
 - Promise
 - async e await
