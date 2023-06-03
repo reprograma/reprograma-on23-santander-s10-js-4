@@ -15,8 +15,7 @@ async function getCards() {
   try {
     const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php')
     const json = await response.json()
-    const cards = json.data
-    const oursCards = cards.slice(754, 759)
+    const oursCards = cards.slice(0, 5)
     return oursCards
   }
   catch(erro) {
